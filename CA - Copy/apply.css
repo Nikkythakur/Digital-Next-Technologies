@@ -1,0 +1,578 @@
+* {
+    box-sizing: border-box;
+  }
+
+  
+html{
+  font-size: 62.5%;
+}
+
+
+  body {
+    font-size: 1.4rem;
+    top: 0rem;
+    left: 0rem;
+    right: 0rem;
+  }
+  .v1_3 {
+    width: 100%;
+    height: 65.0rem;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0rem;
+    left: 0rem;
+    right: 0rem;
+    overflow: hidden;
+  }
+  /*job profile*/
+  .v16_33 {
+    width: 40.0rem;
+    color: rgba(49,63,110,1);
+    position: absolute;
+    top: 53.0rem;
+    left: 49.0rem;
+    font-family: Poppins;
+    font-weight: Bold;
+    font-size: 3.5rem;
+    opacity: 1;
+    text-align: left;
+  }
+  /*the line above job profile*/ 
+  .v55_75 {
+    width: 12.3rem;
+    height: 0.9rem;
+    background: url("v55_75.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 48.6rem;
+    left: 57.0rem;
+    overflow: hidden;
+  }
+  .button1{
+    width: 20.0rem;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 160.0rem;
+    left: 53.0rem;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 2.6rem;
+    opacity: 1;
+    text-align: center;
+    z-index: 9;
+  }
+  .button{
+    width: 25.3rem;
+    height: 4.3rem;
+    background: linear-gradient(rgba(52,67,115,1), rgba(121,153,236,1));
+    opacity: 1;
+    position: absolute;
+    top: 160.0rem;
+    left: 50.0rem;
+    border-top-left-radius: 2.7rem;
+    border-top-right-radius: 2.7rem;
+    border-bottom-left-radius: 2.7rem;
+    border-bottom-right-radius: 2.7rem;
+    overflow: hidden;
+    background-position: center !important;
+  }
+  .v16_30 {
+    width: 5.3rem;
+    height: 0.4rem;
+    background: rgba(49,63,110,1);
+    opacity: 1;
+    position: absolute;
+    top: 0.3rem;
+    left: 0rem;
+    border-top-left-radius: 10.0rem;
+    border-top-right-radius: 10.0rem;
+    border-bottom-left-radius: 10.0rem;
+    border-bottom-right-radius: 10.0rem;
+    overflow: hidden;
+  }
+  .v16_31 {
+    width: 0.9rem;
+    height: 0.9rem;
+    background: rgba(49,63,110,1);
+    opacity: 1;
+    position: absolute;
+    top: 0rem;
+    left: 5.7rem;
+    border-top-left-radius: 10.0rem;
+    border-top-right-radius: 10.0rem;
+    border-bottom-left-radius: 10.0rem;
+    border-bottom-right-radius: 10.0rem;
+    overflow: hidden;
+  }
+  .v16_32 {
+    width: 5.3rem;
+    height: 0.4rem;
+    background: rgba(49,63,110,1);
+    opacity: 1;
+    position: absolute;
+    top: 0.3rem;
+    left: 7.0rem;
+    border-top-left-radius: 10.0rem;
+    border-top-right-radius: 10.0rem;
+    border-bottom-left-radius: 10.0rem;
+    border-bottom-right-radius: 10.0rem;
+    overflow: hidden;
+  }
+  /*home+careers*/
+  .v4_10 {
+    width: 25.3rem;
+    height: 4.3rem;
+    background: linear-gradient(rgba(52,67,115,1), rgba(121,153,236,1));
+    opacity: 1;
+    position: absolute;
+    top: 20.9rem;
+    left: 50.0rem;
+    border-top-left-radius: 2.7rem;
+    border-top-right-radius: 2.7rem;
+    border-bottom-left-radius: 2.7rem;
+    border-bottom-right-radius: 2.7rem;
+    overflow: hidden;
+    background-position: center !important;
+    z-index: 1;
+  }
+  /*Background*/
+  .v3_4 {
+    width: 100%;
+    top: 0rem;
+    height: 37.7rem;
+    background: linear-gradient(rgba(51,66,114,1), rgba(122,154,239,1));
+    opacity: 1;
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    right: 0rem;
+    overflow: hidden;
+  }
+  /*navbar*/
+  .v4_14 {
+    width: 100%;
+    height: 8.4rem;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: fixed;
+    top: 0rem;
+    left: 0rem;
+    box-shadow: 0rem 3.2rem 3.4rem rgba(0, 0, 0, 0.25);
+    overflow: auto;
+    z-index: 9;
+  }
+  /*design bg*/
+  .v4_8 {
+    width: 100%;
+    height: 62.2rem;
+    background: url("v4_8.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: block;
+    opacity: 1;
+    position: absolute;
+    top: 4.1rem;
+    left: 0rem;
+    right: 0rem;
+    overflow: hidden;
+  }
+  /*blue bg*/
+  .v4_5 {
+    width: 100%;
+    height: 32.3rem;
+    background: url("v4_5.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 5.4rem;
+    left: 0rem;
+    overflow: auto;
+    outline: none;
+  }
+  /*middle career*/
+  .v4_13 {
+    width: 7.2rem;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 21.8rem;
+    left: 65.0rem;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 1.8rem;
+    opacity: 1;
+    text-align: left;
+    z-index: 9;
+  }
+  /*arrow btw home & services*/
+  .v4_12 {
+    width: 0.6rem;
+    height: 1.4rem;
+    background: url("arrow.png");
+    opacity: 1;
+    position: absolute;
+    top: 22.4rem;
+    left: 62.3rem;
+    border: 0.4rem solid rgba(255,255,255,1);
+    z-index: 9;
+  }
+  .v4_11 {
+    width: 5.4rem;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 21.8rem;
+    left: 54.2rem;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 1.8rem;
+    opacity: 1;
+    text-align: left;
+    z-index: 9;
+  }
+  .v4_9 {
+    width: 14.2rem;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 15.0rem;
+    left: 55.7rem;
+    font-family: Source Sans Pro;
+    font-weight: Bold;
+    font-size: 4.2rem;
+    opacity: 1;
+    text-align: left;
+    z-index: 9;
+  }
+  /*Career text*/
+  .v55_78 {
+    width: 7.2rem;
+    color: rgba(63,80,133,1);
+    position: fixed;
+    top: 2.7rem;
+    left: 101.0rem;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 1.8rem;
+    opacity: 1;
+    text-align: left;
+    z-index: 9;
+  }
+  /*contact us*/
+  .v10_19 {
+    width: 10.1rem;
+    color: rgba(63,80,133,1);
+    position: fixed;
+    top: 2.7rem;
+    left: 88.0rem;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 1.8rem;
+    opacity: 1;
+    text-align: left;
+    z-index: 9;
+  }
+  /*services wala arrow*/
+  .v10_20 {
+    width: 0.3rem;
+    height: 0.7rem;
+    background: url("arrow.png");
+    opacity: 1;
+    position: fixed;
+    top: 3.8rem;
+    left: 85.0rem;
+    border: 0.2rem solid rgba(63,80,133,1);
+    z-index: 9;
+  }
+  /*services*/
+  .v10_18 {
+    width: 7.6rem;
+    color: rgba(63,80,133,1);
+    position: fixed;
+    top: 2.7rem;
+    left: 77.0rem;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 1.8rem;
+    opacity: 1;
+    text-align: left;
+    z-index: 9;
+  }
+  /*about us*/
+  .v10_17 {
+    width: 8.2rem;
+    color: rgba(63,80,133,1);
+    position: fixed;
+    top: 2.7rem;
+    left: 66.0rem;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 1.8rem;
+    opacity: 1;
+    text-align: left;
+    z-index: 9;
+  }
+  /*home*/
+  .v10_16 {
+    width: 5.4rem;
+    color: rgba(63,80,133,1);
+    position: fixed;
+    top: 2.7rem;
+    left: 56.0rem;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 1.8rem;
+    opacity: 1;
+    text-align: left;
+    z-index: 9;
+  }
+  /*logo on top*/
+  .v10_21 {
+    width: 7.0rem;
+    height: 7.6rem;
+    background: url("v10_21.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: fixed;
+    top: 0.5rem;
+    left: 20.0rem;
+    overflow: hidden;
+    z-index: 9;
+  }
+  /*.col-1{
+      width: 600rem;
+      height: 50rem;
+      display: flex;
+      position: absolute;
+      left: 300rem;
+      border-bottom-left-radius: 40rem;
+      background-color: transparent;
+      font-size: 80rem;
+      font-family: Poppins;
+  }*/
+  input[type=text], select {
+    width: 50%;
+    padding: 1.2rem 2.0rem;
+    margin: 0.8rem 0;
+    display: inline-block;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.4rem;
+    box-sizing: border-box;
+  }
+  input[type=number], select {
+    width: 50%;
+    padding: 1.2rem 2.0rem;
+    margin: 0.8rem 0;
+    display: inline-block;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.4rem;
+    box-sizing: border-box;
+  }
+  input[type=url], select {
+    width: 50%;
+    padding: 1.2rem 2.0rem;
+    margin: 0.8rem 0;
+    display: inline-block;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.4rem;
+    box-sizing: border-box;
+  }
+  .submit{
+    width: 12.0rem;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 130.0rem;
+    left: 49.0rem;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-weight: bold;
+    font-size: 2.1rem;
+    opacity: 1;
+    text-align: center;
+    z-index: 9;
+  }
+  .submit{
+    width: 15.0rem;
+    height: 4.0rem;
+    background: linear-gradient(rgba(52,67,115,1), rgba(121,153,236,1));
+    opacity: 1;
+    position: absolute;
+    top: 130.0rem;
+    left: 46.0rem;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 2.7rem;
+    border-bottom-left-radius: 2.7rem;
+    border-bottom-right-radius: 0rem;
+    overflow: hidden;
+    background-position: center !important;
+  }
+  .submit:hover{
+      font-size: 2.5rem;
+  }
+  p{
+      text-align: center;
+      margin-top: 0.3rem;
+  }
+  .col-1{
+      display: flex;
+      position: absolute;
+      width: 40%;
+      height: 7.0rem;
+      justify-content: space-evenly;
+      left: 10.0rem;
+      overflow: hidden;
+      box-shadow: lightgray;
+  }
+  .col-11{
+    display: flex;
+    position: absolute;
+    width: 40%;
+    height: 7.0rem;
+    justify-content: space-evenly;
+    left: 40.0rem;
+    overflow: hidden;
+    box-shadow: lightgray;
+}
+.col-2{
+    display: flex;
+    position: absolute;
+    width: 40%;
+    height: 7.0rem;
+    justify-content: space-evenly;
+    left: 10.0rem;
+    top: 75.0rem;
+    overflow: hidden;
+    box-shadow: lightgray;
+}
+.col-22{
+    display: flex;
+    position: absolute;
+    width: 40%;
+    height: 7.0rem;
+    justify-content: space-evenly;
+    left: 40.0rem;
+    top: 75.0rem;
+    overflow: hidden;
+    box-shadow: lightgray;
+}
+.col-3{
+    display: flex;
+    position: absolute;
+    width: 85%;
+    height: 7.0rem;
+    justify-content: space-evenly;
+    left: -5.0rem;
+    top: 85.0rem;
+    overflow: hidden;
+    box-shadow: lightgray;
+}
+.col-4{
+    display: flex;
+    position: absolute;
+    width: 85%;
+    height: 7.0rem;
+    justify-content: space-evenly;
+    left: -5.0rem;
+    top: 95.0rem;
+    overflow: hidden;
+    box-shadow: lightgray;
+}
+.col-5{
+    display: flex;
+    position: absolute;
+    width: 85%;
+    height: 7.0rem;
+    justify-content: space-evenly;
+    left: -5.0rem;
+    top: 105.0rem;
+    overflow: hidden;
+    box-shadow: lightgray;
+    text-align: center;
+}
+h2{
+  position: absolute;
+  font-size: 2.0rem;
+  font-family: Poppins;
+  left: 30.0rem;
+}
+.col-6{
+    display: flex;
+    position: absolute;
+    width: 40%;
+    height: 7.0rem;
+    justify-content: space-evenly;
+    left: 10.0rem;
+    top: 115.0rem;
+    overflow: hidden;
+    box-shadow: lightgray;
+}
+.col-66{
+    display: flex;
+    position: absolute;
+    width: 40%;
+    height: 7.0rem;
+    justify-content: space-evenly;
+    left: 40.0rem;
+    top: 115.0rem;
+    overflow: hidden;
+}
+.pic{
+    width: 55.0rem;
+    height: 50.0rem;
+    background: url("illustrate.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 65.0rem;
+    left: 81.0rem;
+    overflow: hidden;
+}
+.pic:hover{
+    height: 55.0rem;
+    width: 55.0rem;
+}
+#ip1{
+    border-radius: 3.0rem;
+    box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgba(0.2, 0.2, 0.2, 0.2);
+    box-sizing: border-box;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.myfile{
+    height: 5.0rem;
+    width: 30.0rem;
+    font-weight: 2.0rem;
+    position: absolute;
+    left: 47.0rem;
+}
+
+/* @media only screen and (max-width: 768px) {
+  
+  [class*="col-1"] {
+    width: 100%;
+  }
+  [class*="col-11"] {
+    width: 100%;
+  }
+} */
+
+@media(max-width: 998px){
+  html{
+    font-size: 55%;
+  }
+}
+
+@media(max-width: 768px){
+  html{
+    font-size: 45%;
+  }
+}
